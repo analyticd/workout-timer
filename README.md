@@ -55,5 +55,7 @@ Note for OS X Users
 You may need to install libao, flac, and libvorbis. You can do so via the [Homebrew — The missing package manager for macOS](https://brew.sh/):
 
 brew install libao
+
 brew install flac
+
 brew install libvorbis
