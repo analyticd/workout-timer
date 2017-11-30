@@ -48,3 +48,12 @@ Or, from the SBCL (SLIME) REPL:
     (load "~/quicklisp/setup.lisp")
     (ql:quickload "workout-timer")
     (workout-timer:mix-it :volume 1.0 :work-seconds 30 :pause-seconds 10)
+
+Note for OS X Users
+-------------------
+
+You may need to install libao, flac, and libvorbis. You can do so via the [Homebrew — The missing package manager for macOS](https://brew.sh/):
+
+brew install libao
+brew install flac
+brew install libvorbis
