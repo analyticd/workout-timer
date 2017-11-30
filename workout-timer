@@ -1,4 +1,4 @@
-#!/usr/bin/cl -Q -sm workout-timer
+#!/usr/local/bin/sbcl -Q -sm workout-timer
 #|
 Version with:
   ./workout-timer -V
